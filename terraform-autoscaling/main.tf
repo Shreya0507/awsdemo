@@ -39,3 +39,5 @@ module "autoscaling" {
   private_subnets    = module.vpc.public_subnets
   target_group_arn   = module.alb.target_group_arn
 }
+
+#New line
